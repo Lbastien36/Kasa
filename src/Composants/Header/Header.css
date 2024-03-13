@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.LogoRouge {
+  width: 210px;
+  height: 68px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+nav .lien {
+  color: black;
+  font-weight: 500;
+}/*# sourceMappingURL=Header.css.map */
