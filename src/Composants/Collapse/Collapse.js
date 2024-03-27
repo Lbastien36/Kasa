@@ -8,7 +8,7 @@ const Collapse = ({ titre, contenu, style }) => {
 
     return (
 
-        <div className="collapse" >
+        <div className="collapse" style={style} >
             <div className='collapse-titre'>
 
                 <h3>{titre}</h3>
