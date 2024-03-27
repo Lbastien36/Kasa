@@ -21,13 +21,30 @@
 }
 
 .slogan {
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  bottom: 61%;
+  translate: 20%;
   position: absolute;
   color: white;
   font-weight: 700;
   font-size: 42px;
+}
+@media (max-width: 1440px) {
+  .slogan {
+    bottom: 65%;
+  }
+}
+@media (max-width: 1024px) {
+  .slogan {
+    font-size: 32px;
+    bottom: 58%;
+    translate: 18%;
+  }
+}
+@media (max-width: 768px) {
+  .slogan {
+    translate: 10%;
+  }
 }
 
 .fondgris {
@@ -43,6 +60,11 @@
   border-radius: 12px;
   margin-bottom: 30px;
 }
+@media (max-width: 1024px) {
+  .fondgris {
+    grid-template-columns: 29% 29% 29%;
+  }
+}
 
 .carte {
   height: 100%;
@@ -56,11 +78,16 @@
   border-radius: 8px;
   filter: brightness(85%);
 }
-.carte .titre-logement {
+.carte .titre-logements {
   left: 5%;
   bottom: 25%;
   width: 80%;
   position: relative;
   color: white;
   font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .carte .titre-logements {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Acceuil.css.map */

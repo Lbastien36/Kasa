@@ -1,1 +1,25 @@
-/*# sourceMappingURL=Erreur404.css.map */
+.section-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.erreur404 {
+  font-size: 288px;
+  color: #FF6060;
+  font-weight: 700;
+  margin: 0;
+}
+
+.oups {
+  font-size: 36px;
+  color: #FF6060;
+  font-weight: 500;
+}
+
+.revenir {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=Erreur404.css.map */

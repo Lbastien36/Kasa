@@ -1,8 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 40px;
 }
 
@@ -20,5 +20,13 @@ nav {
     .lien {
         color: black;
         font-weight: 500;
+
+        @media(max-width: 426px) {
+            text-transform: uppercase;
+        }
+    }
+
+    .active {
+        text-decoration: underline;
     }
 }

@@ -1,0 +1,14 @@
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 10px;
+  border: solid #FF6060;
+  background-color: #FF6060;
+  padding: 3px 20px 3px 20px;
+}/*# sourceMappingURL=Tag.css.map */

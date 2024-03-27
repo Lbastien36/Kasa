@@ -1,0 +1,42 @@
+.carrousel {
+  height: 415px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-active {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image-inactive {
+  display: none;
+}
+
+.flecheGauche {
+  top: 40%;
+  translate: -6%;
+  position: absolute;
+}
+
+.flecheDroite {
+  top: 40%;
+  translate: -100%;
+  position: absolute;
+}
+
+.indexDePosition {
+  margin: 0;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+}
+@media (max-width: 425px) {
+  .indexDePosition {
+    display: none;
+  }
+}/*# sourceMappingURL=Carrousel.css.map */

@@ -7,7 +7,7 @@ const Foot = () => {
 
         <footer>
             <img src={LogoBlanc} alt='Logo Kasa Blanc' />
-            <h3 className='RightsReserved'>© 2020 Kasa, All rights reserved</h3>
+            <h2 className='RightsReserved'>© 2020 Kasa, All rights reserved</h2>
         </footer>
 
     )

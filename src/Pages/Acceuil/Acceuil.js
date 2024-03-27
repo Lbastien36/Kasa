@@ -2,6 +2,7 @@ import Illustration from './Illustration.png'
 import '../../index.css'
 
 import logements from '../../logements.json'
+import {NavLink } from 'react-router-dom'
 
 
 console.log(logements)
@@ -24,14 +25,14 @@ const Acceuil = () => {
 
                 {
                     logements.map((logement) => (
+                        <NavLink key={logement.id} to={`/logement/${logement.id}`}>
+                            <article className='carte' >
 
-                        <article key={logement.id } className='carte'>
+                                <img src={logement.cover} className='vignette' />
+                                <p className='titre-logements'>{logement.title}</p>
 
-                            <img src={logement.cover} className='vignette' />
-                            <p className='titre-logement'>{logement.title}</p>
-
-                        </article>
-
+                            </article>
+                        </NavLink>
 
                     ))
                 }
