@@ -41,6 +41,7 @@
 
 .collapse-cache {
   visibility: hidden;
+  height: 0;
 }
 
 .collapse-contenu-p {

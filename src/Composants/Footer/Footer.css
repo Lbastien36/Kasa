@@ -6,7 +6,36 @@ footer {
   height: 150px;
   background-color: black;
 }
+@media (max-width: 426px) {
+  footer {
+    height: 235px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  .logoBlanc {
+    width: 33%;
+  }
+}
 
 .RightsReserved {
   color: white;
+  font-weight: 500;
+}
+@media (max-width: 426px) {
+  .RightsReserved {
+    font-size: 12px;
+    width: 23%;
+  }
+}
+@media (max-width: 376px) {
+  .RightsReserved {
+    width: 26%;
+  }
+}
+@media (max-width: 326px) {
+  .RightsReserved {
+    width: 32%;
+  }
 }/*# sourceMappingURL=Footer.css.map */

@@ -5,10 +5,22 @@ header {
   margin-right: 10%;
   margin-bottom: 40px;
 }
+@media (max-width: 426px) {
+  header {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 
-.LogoRouge {
-  width: 210px;
-  height: 68px;
+@media (max-width: 426px) {
+  .LogoRouge {
+    width: 45%;
+  }
+}
+@media (max-width: 320px) {
+  .LogoRouge {
+    margin-right: 5%;
+  }
 }
 
 nav {
@@ -23,6 +35,7 @@ nav .lien {
 @media (max-width: 426px) {
   nav .lien {
     text-transform: uppercase;
+    font-size: 12px;
   }
 }
 nav .active {

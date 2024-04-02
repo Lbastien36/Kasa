@@ -5,10 +5,22 @@ header {
   margin-right: 10%;
   margin-bottom: 40px;
 }
+@media (max-width: 426px) {
+  header {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 
-.LogoRouge {
-  width: 210px;
-  height: 68px;
+@media (max-width: 426px) {
+  .LogoRouge {
+    width: 45%;
+  }
+}
+@media (max-width: 320px) {
+  .LogoRouge {
+    margin-right: 5%;
+  }
 }
 
 nav {
@@ -23,6 +35,7 @@ nav .lien {
 @media (max-width: 426px) {
   nav .lien {
     text-transform: uppercase;
+    font-size: 12px;
   }
 }
 nav .active {
@@ -37,9 +50,38 @@ footer {
   height: 150px;
   background-color: black;
 }
+@media (max-width: 426px) {
+  footer {
+    height: 235px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  .logoBlanc {
+    width: 33%;
+  }
+}
 
 .RightsReserved {
   color: white;
+  font-weight: 500;
+}
+@media (max-width: 426px) {
+  .RightsReserved {
+    font-size: 12px;
+    width: 23%;
+  }
+}
+@media (max-width: 376px) {
+  .RightsReserved {
+    width: 26%;
+  }
+}
+@media (max-width: 326px) {
+  .RightsReserved {
+    width: 32%;
+  }
 }
 
 .carrousel {
@@ -128,6 +170,7 @@ footer {
 
 .collapse-cache {
   visibility: hidden;
+  height: 0;
 }
 
 .collapse-contenu-p {
@@ -192,6 +235,7 @@ footer {
 
 .collapse-cache {
   visibility: hidden;
+  height: 0;
 }
 
 .collapse-contenu-p {
@@ -204,11 +248,15 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
 .banniere {
   height: 150px;
   width: 80%;
   margin-bottom: 30px;
+}
+@media (max-width: 426px) {
+  .banniere {
+    width: 90%;
+  }
 }
 .banniere .illustration {
   -o-object-fit: cover;
@@ -229,21 +277,39 @@ footer {
   font-weight: 700;
   font-size: 42px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
   .slogan {
     bottom: 65%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .slogan {
     font-size: 32px;
     bottom: 58%;
     translate: 18%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .slogan {
     translate: 10%;
+  }
+}
+@media (max-width: 426px) {
+  .slogan {
+    width: 50%;
+    bottom: 60%;
+    font-size: 24px;
+  }
+}
+@media (max-width: 376px) {
+  .slogan {
+    width: 59%;
+  }
+}
+@media (max-width: 320px) {
+  .slogan {
+    width: 67%;
+    bottom: 62%;
   }
 }
 
@@ -255,7 +321,6 @@ footer {
   padding-bottom: 40px;
   justify-content: center;
   background-color: #f6f6f6;
-  height: 100%;
   width: 80%;
   border-radius: 12px;
   margin-bottom: 30px;
@@ -265,9 +330,21 @@ footer {
     grid-template-columns: 29% 29% 29%;
   }
 }
+@media (max-width: 769px) {
+  .fondgris {
+    grid-template-columns: 45% 45%;
+  }
+}
+@media (max-width: 426px) {
+  .fondgris {
+    grid-template-columns: 110%;
+    background-color: white;
+    margin-bottom: 0;
+  }
+}
 
 .carte {
-  height: 100%;
+  height: 240px;
   width: 100%;
 }
 .carte .vignette {
@@ -279,16 +356,22 @@ footer {
   filter: brightness(85%);
 }
 .carte .titre-logements {
-  left: 5%;
+  left: 3%;
   bottom: 25%;
   width: 80%;
   position: relative;
   color: white;
   font-weight: 700;
+  margin: 0;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .carte .titre-logements {
     width: 100%;
+  }
+}
+@media (max-width: 426px) {
+  .carte .titre-logements {
+    width: 90%;
   }
 }
 
