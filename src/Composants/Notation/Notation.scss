@@ -1,0 +1,14 @@
+.div-etoiles {
+    display: flex;
+
+    @media(max-width: 426px) {
+        align-items: center;
+    }
+}
+
+.etoiles {
+
+    @media(max-width: 426px) {
+        height: 25px
+    }
+}

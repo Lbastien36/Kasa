@@ -1,6 +1,7 @@
 .tags {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -10,5 +11,5 @@
   border-radius: 10px;
   border: solid #FF6060;
   background-color: #FF6060;
-  padding: 3px 20px 3px 20px;
+  padding: 1px 10px 1px 10px;
 }/*# sourceMappingURL=Tag.css.map */

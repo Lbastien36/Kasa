@@ -2,6 +2,10 @@
     height: 415px;
     width: 100%;
     margin-bottom: 20px;
+
+    @media(max-width: 426px) {
+        height: 255px;
+    }
 }
 
 .image-active {
@@ -20,22 +24,59 @@
     top: 40%;
     translate: -6%;
     position: absolute;
+
+    @media(max-width: 1441px) {
+        top: 35%
+    }
+
+    @media(max-width: 1025px) {
+        top: 47%
+    }
+
+    @media(max-width: 769px) {
+        height: 90px;
+        top: 50%;
+    }
+
+    @media(max-width: 426px) {
+        height: 60px;
+        top: 37%;
+    }
 }
 
 .flecheDroite {
     top: 40%;
     translate: -100%;
     position: absolute;
+
+    @media(max-width: 1441px) {
+        top: 35%
+    }
+
+    @media(max-width: 1025px) {
+        top: 47%
+    }
+
+    @media(max-width: 769px) {
+        height: 90px;
+        top: 50%;
+    }
+
+    @media(max-width: 426px) {
+        height: 60px;
+        top: 37%;
+    }
 }
 
 .indexDePosition {
+    bottom: 10%;
     margin: 0;
     color: white;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 75%;
 
-    @media(max-width: 425px) {
+    @media(max-width: 769px) {
         display: none;
     }
+
 }

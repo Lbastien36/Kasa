@@ -14,36 +14,40 @@ const Logement = () => {
     const CeLogement = logements.find(logement => logement.id === id);
 
     console.log(CeLogement)
-    
-    
+
+
     return <> {CeLogement ? (
         <section className='section-logement'>
 
             <Carrousel imageCarrousel={CeLogement.pictures} />
+            <div className='div-logement'>
+                <div className='titre-tag'>
+                    <div className='div-titre-location'>
+                        <h2 className='titre-logement'>{CeLogement.title}</h2>
+                        <p className='location-logement'>{CeLogement.location}</p>
 
-            <div className='titre-hote'>
-                <div>
-                    <h2 className='titre-logement'>{CeLogement.title}</h2>
-                    <p className='location-logement'>{CeLogement.location}</p>
-
+                    </div>
+                    <Tag tags={CeLogement.tags} />
+                </div>
+                <div className='hote-notation'>
+                    <div className='hote'>
+                        <p className='nom-hote'>{CeLogement.host.name}</p>
+                        <img src={CeLogement.host.picture} className='picture' alt='Hôte' />
+                    </div>
+                    <Notation notation={CeLogement.rating} />
                 </div>
 
-                <div className='hote'>
-                    <p className='nom-hote'>{CeLogement.host.name}</p>
-                    <img src={CeLogement.host.picture} className='picture' alt='Hôte' />
-
-                </div>
             </div>
 
-            <div className='tags-notation'>
 
-                <Tag tags={CeLogement.tags} />
 
-                <Notation notation={CeLogement.rating} />
-            </div>
+
+
+
+
 
             <div className='Collapses'>
-                <Collapse titre={'Description'} contenu={CeLogement.description} />
+                <Collapse  titre={'Description'} contenu={CeLogement.description} />
 
                 <Collapse titre={'Équipements'} contenu={CeLogement.equipments} />
 

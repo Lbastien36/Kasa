@@ -7,4 +7,9 @@ body {
   font-family: "Montserrat";
   text-decoration: none;
   color: inherit;
+}
+
+h3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }/*# sourceMappingURL=Basic.css.map */

@@ -1,1 +1,14 @@
-/*# sourceMappingURL=Notation.css.map */
+.div-etoiles {
+  display: flex;
+}
+@media (max-width: 426px) {
+  .div-etoiles {
+    align-items: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .etoiles {
+    height: 25px;
+  }
+}/*# sourceMappingURL=Notation.css.map */
