@@ -38,6 +38,9 @@ nav {
             text-transform: uppercase;
             font-size: 12px;
         }
+        @media(max-width: 321px){
+            font-size: 10px;
+        }
     }
 
     .active {

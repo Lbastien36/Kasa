@@ -10,11 +10,45 @@
   font-weight: 700;
   margin: 0;
 }
+@media (max-width: 769px) {
+  .erreur404 {
+    font-size: 188px;
+  }
+}
+@media (max-width: 426px) {
+  .erreur404 {
+    font-size: 99px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+  }
+}
 
 .oups {
   font-size: 36px;
   color: #FF6060;
   font-weight: 500;
+}
+@media (max-width: 769px) {
+  .oups {
+    font-size: 22px;
+  }
+}
+@media (max-width: 426px) {
+  .oups {
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 376px) {
+  .oups {
+    font-size: 15px;
+  }
+}
+@media (max-width: 321px) {
+  .oups {
+    font-size: 13px;
+  }
 }
 
 .revenir {
@@ -22,4 +56,19 @@
   font-weight: 500;
   text-decoration-line: underline;
   margin-bottom: 100px;
+}
+@media (max-width: 769px) {
+  .revenir {
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) {
+  .revenir {
+    font-size: 14px;
+  }
+}
+@media (max-width: 376px) {
+  .revenir {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Erreur404.css.map */

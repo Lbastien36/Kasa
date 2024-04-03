@@ -38,6 +38,11 @@ nav .lien {
     font-size: 12px;
   }
 }
+@media (max-width: 321px) {
+  nav .lien {
+    font-size: 10px;
+  }
+}
 nav .active {
   text-decoration: underline;
 }/*# sourceMappingURL=Header.css.map */
